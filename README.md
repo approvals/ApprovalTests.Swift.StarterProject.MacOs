@@ -1,0 +1,1 @@
+# ApprovalTests.Swift.StarterProject.MacOs
