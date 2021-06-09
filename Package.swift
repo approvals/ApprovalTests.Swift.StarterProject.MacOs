@@ -13,12 +13,14 @@ let package = Package(
                     targets: ["ApprovalTests.Swift.StarterProject.MacOS"]
             ),
         ],
+        // begin-snippet: package_include_approvals
         dependencies: [
             .package(
                 url: "https://github.com/approvals/ApprovalTests.Swift.git",
                 .branch("master")
                 ),
         ],
+        // end-snippet
         targets: [
             .target(
                     name: "ApprovalTests.Swift.StarterProject.MacOS",
