@@ -16,6 +16,7 @@ let package = Package(
         // begin-snippet: package_include_approvals
         dependencies: [
             .package(
+                name: "ApprovalTests"
                 url: "https://github.com/approvals/ApprovalTests.Swift.git",
                 .branch("master")
                 ),
@@ -31,7 +32,7 @@ let package = Package(
                     name: "ApprovalTests.Swift.StarterProject.MacOSTests",
                     dependencies: [
                         "ApprovalTests.Swift.StarterProject.MacOS",
-                        "ApprovalTests.Swift"
+                        "ApprovalTests"
                     ],
                     path: "ApprovalTests.Swift.StarterProject.MacOSTests"
             ),
