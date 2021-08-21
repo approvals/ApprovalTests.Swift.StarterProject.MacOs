@@ -26,7 +26,8 @@ let package = Package(
             .target(
                     name: "ApprovalTests.Swift.StarterProject.MacOS",
                     dependencies: [],
-                    path: "ApprovalTests.Swift.StarterProject.MacOS"
+                    path: "ApprovalTests.Swift.StarterProject.MacOS",
+                    exclude: ["Info.plist"]
             ),
             .testTarget(
                     name: "ApprovalTests.Swift.StarterProject.MacOSTests",
@@ -34,7 +35,12 @@ let package = Package(
                         "ApprovalTests.Swift.StarterProject.MacOS",
                         "ApprovalTests.Swift"
                     ],
-                    path: "ApprovalTests.Swift.StarterProject.MacOSTests"
+                    path: "ApprovalTests.Swift.StarterProject.MacOSTests",
+                    exclude: [
+                        "Info.plist",
+                        "ApprovalsSampleMacTests.testList.approved.txt",
+                        "ApprovalsSampleMacTests.testText.approved.txt"
+                    ]
             ),
         ]
 )
