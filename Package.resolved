@@ -3,10 +3,10 @@
     "pins": [
       {
         "package": "ApprovalTests.Swift",
-        "repositoryURL": "https://github.com/approvals/ApprovalTests.Swift.git",
+        "repositoryURL": "https://github.com/approvals/ApprovalTests.Swift",
         "state": {
           "branch": "master",
-          "revision": "54c95e2bc94110d1c677178d49129b46fc98c85a",
+          "revision": "0edcf5f4119896c87ef3acd8e4a73a9f80a2bcdb",
           "version": null
         }
       }
