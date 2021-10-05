@@ -22,9 +22,7 @@ let package = Package(
                 ),
         ],
         // end-snippet
-        // begin-snippet: foo
         targets: [
-        // end-snippet
             .target(
                     name: "ApprovalTests.Swift.StarterProject.MacOS",
                     dependencies: [],
