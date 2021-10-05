@@ -29,12 +29,14 @@ let package = Package(
                     path: "ApprovalTests.Swift.StarterProject.MacOS",
                     exclude: ["Info.plist"]
             ),
+        // begin-snippet: package_add_test_target
             .testTarget(
                     name: "ApprovalTests.Swift.StarterProject.MacOSTests",
                     dependencies: [
                         "ApprovalTests.Swift.StarterProject.MacOS",
                         "ApprovalTests.Swift"
                     ],
+        // end-snippet
                     path: "ApprovalTests.Swift.StarterProject.MacOSTests",
                     exclude: [
                         "Info.plist",
