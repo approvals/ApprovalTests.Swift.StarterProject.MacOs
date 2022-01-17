@@ -16,10 +16,10 @@ let package = Package(
         // begin-snippet: package_include_approvals
         dependencies: [
             .package(
-                name: "ApprovalTests.Swift",
-                url: "https://github.com/approvals/ApprovalTests.Swift",
-                from: "1.0.0"
-                ),
+                    name: "ApprovalTests.Swift",
+                    url: "https://github.com/approvals/ApprovalTests.Swift",
+                    from: "1.0.0"
+            ),
         ],
         // end-snippet
         targets: [
