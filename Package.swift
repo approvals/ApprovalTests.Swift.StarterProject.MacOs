@@ -18,7 +18,7 @@ let package = Package(
             .package(
                 name: "ApprovalTests.Swift",
                 url: "https://github.com/approvals/ApprovalTests.Swift",
-                .branch("master")
+                from: "1.0.0"
                 ),
         ],
         // end-snippet
