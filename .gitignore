@@ -1,10 +1,12 @@
+# ApprovalTests
 *.received.*
 
+# AppCode
 .idea
 
 
-# Created by https://www.toptal.com/developers/gitignore/api/macos,xcode,swift
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,xcode,swift
+# Created by https://www.toptal.com/developers/gitignore/api/macos,swiftpackagemanager,swift
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,swiftpackagemanager,swift
 
 ### macOS ###
 # General
@@ -119,16 +121,10 @@ fastlane/test_output
 
 iOSInjectionProject/
 
-### Xcode ###
+### SwiftPackageManager ###
+Packages
+xcuserdata
+*.xcodeproj
 
-## Xcode 8 and earlier
 
-### Xcode Patch ###
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcworkspace/contents.xcworkspacedata
-/*.gcno
-**/xcshareddata/WorkspaceSettings.xcsettings
-
-# End of https://www.toptal.com/developers/gitignore/api/macos,xcode,swift
+# End of https://www.toptal.com/developers/gitignore/api/macos,swiftpackagemanager,swift
