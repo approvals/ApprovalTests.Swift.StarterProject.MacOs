@@ -17,7 +17,7 @@ let package = Package(
         dependencies: [
             .package(
                     url: "https://github.com/approvals/ApprovalTests.Swift",
-                    from: "1.0.0"
+                    branch: "master"
             ),
         ],
         // end-snippet

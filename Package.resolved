@@ -5,9 +5,9 @@
         "package": "ApprovalTests.Swift",
         "repositoryURL": "https://github.com/approvals/ApprovalTests.Swift",
         "state": {
-          "branch": null,
-          "revision": "0f4ecb818246c0652ff8fcfcae04dd09b99f962d",
-          "version": "1.0.0"
+          "branch": "master",
+          "revision": "c6e4fd7fb0e4f345dd2e17a9d035e9095603f2ae",
+          "version": null
         }
       }
     ]
